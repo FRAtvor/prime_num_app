@@ -1,8 +1,4 @@
 import math
-from flask import Flask
-
-app = Flask(__name__)
-
 
 def prime_num_test(number):
     """
@@ -35,14 +31,4 @@ def find_nearest_pn(number):
             return number+step
         else:
             step += 1        
-    
-
-
-
-
-
-
-
-
-
 
