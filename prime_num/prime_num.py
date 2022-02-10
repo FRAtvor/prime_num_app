@@ -8,7 +8,7 @@ def prime_num_test(number):
         return False
     elif number == 2:
         return True
-    elif (number > 2) & (number % 2 == 0):  # even numbers, not prime numbers, saves loops
+    elif (number > 2) & (number % 2 == 0):  # even numbers aren't prime numbers, spares loops
         return False
     
     max_divisior = math.floor(math.sqrt(number))
