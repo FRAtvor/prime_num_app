@@ -17,7 +17,6 @@ def get_test_num():
 
 if __name__ == '__main__':
    app.run(debug=True)
-
   
 
     # print(type(args.to_dict()))
